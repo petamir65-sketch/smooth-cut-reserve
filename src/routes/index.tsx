@@ -58,7 +58,7 @@ const barbers = [
     photo: barberMark,
     name: "Марк",
     specialty: "Стрижка · Фейд",
-    specialtyClass: "text-accent",
+    specialtyClass: "text-amber",
   },
   {
     photo: barberDima,
@@ -70,7 +70,7 @@ const barbers = [
     photo: barberTimur,
     name: "Тимур",
     specialty: "Классика · Укладка",
-    specialtyClass: "text-amber",
+    specialtyClass: "text-accent",
   },
 ];
 
@@ -112,7 +112,7 @@ function Index() {
             <span className="block text-accent">BARBER</span>
           </h1>
           <div className="relative z-10 -mt-[18vw] max-w-2xl md:-mt-[14vw]">
-            <p className="max-w-md text-lg font-medium md:text-xl">
+            <p className="inline-block max-w-md rounded-2xl border-2 border-ink bg-paper px-5 py-4 text-lg font-medium shadow-[5px_5px_0_0_#17120E] md:text-xl">
               Городской барбершоп с характером. Чистые линии, точный фейд и
               спокойная атмосфера без суеты.
             </p>
@@ -196,13 +196,15 @@ function Index() {
                 <br />на <span className="text-amber">сегодня</span>
               </h2>
               <p className="mt-5 max-w-sm text-cream/70">
-                Выбери время — подтвердим за пару минут. Первое посещение с
-                -10%.
+                Выбери время — подтвердим за пару минут.
               </p>
+              <div className="mt-4 inline-block rounded-full border-2 border-cream/20 bg-amber px-5 py-2.5 text-sm font-black uppercase tracking-wide text-ink shadow-[4px_4px_0_0_#FF5C39]">
+                Первое посещение — скидка 10%
+              </div>
               <div className="mt-6 flex flex-col gap-2 text-sm font-semibold">
                 <span>ул. Громова, 12 · ежедневно 10:00–21:00</span>
-                <a href="tel:+79000000000" className="text-accent">
-                  +7 (900) 000-00-00
+                <a href="tel:+79221847305" className="text-accent">
+                  +7 (922) 184-73-05
                 </a>
               </div>
             </div>

@@ -107,14 +107,14 @@ function Index() {
 
       <main className="px-6 pb-20 md:px-12">
         <section className="relative overflow-hidden pt-6 pb-14">
-          <div>
-            <div className="min-w-0">
+          <div className="md:flex md:items-start md:gap-10">
+            <div className="min-w-0 flex-1">
               <h1 className="font-display font-black select-none text-[24vw] uppercase leading-[0.82] tracking-tighter md:text-[13vw]">
                 <span className="block text-ink">TRIM</span>
               </h1>
               <div
                 aria-hidden="true"
-                className="mt-2 whitespace-nowrap text-right font-display font-black select-none uppercase leading-[0.9] tracking-tighter text-accent text-[15vw] md:mt-0 md:text-[12vw]"
+                className="mt-1 whitespace-nowrap text-right font-display font-black select-none uppercase leading-[0.9] tracking-tighter text-accent text-[15vw] md:hidden"
               >
                 BARBER
               </div>
@@ -141,10 +141,9 @@ function Index() {
             </div>
             <div
               aria-hidden="true"
-              className="hidden shrink-0 pt-2 text-right font-display font-black select-none uppercase leading-[0.8] tracking-tighter text-accent text-[19vw] md:block md:text-[13vw]"
+              className="hidden shrink-0 self-start whitespace-nowrap text-right font-display font-black select-none uppercase leading-[0.82] tracking-tighter text-accent text-[13vw] md:block"
             >
-              <span className="block">BAR</span>
-              <span className="block">BER</span>
+              BARBER
             </div>
           </div>
         </section>

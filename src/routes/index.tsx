@@ -107,17 +107,16 @@ function Index() {
 
       <main className="px-6 pb-20 md:px-12">
         <section className="relative overflow-hidden pt-6 pb-14">
-          <div className="flex items-start gap-4 md:gap-10">
-            <div className="min-w-0 flex-1">
+          <div>
+            <div className="min-w-0">
               <h1 className="font-display font-black select-none text-[24vw] uppercase leading-[0.82] tracking-tighter md:text-[13vw]">
                 <span className="block text-ink">TRIM</span>
               </h1>
               <div
                 aria-hidden="true"
-                className="mt-1 text-right font-display font-black select-none uppercase leading-[0.8] tracking-tighter text-accent text-[17vw] md:hidden"
+                className="mt-2 whitespace-nowrap text-right font-display font-black select-none uppercase leading-[0.9] tracking-tighter text-accent text-[15vw] md:mt-0 md:text-[12vw]"
               >
-                <span className="block">BAR</span>
-                <span className="block">BER</span>
+                BARBER
               </div>
               <div className="relative z-10 mt-8 max-w-2xl md:mt-12">
                 <p className="inline-block max-w-md rounded-2xl border-2 border-ink bg-paper px-5 py-4 text-lg font-medium shadow-[5px_5px_0_0_#17120E] md:text-xl">

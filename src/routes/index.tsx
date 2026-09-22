@@ -119,7 +119,7 @@ function Index() {
             <div className="mt-7 flex flex-wrap gap-4">
               <a
                 href="#book"
-                className="rounded-full bg-accent px-9 py-5 text-lg font-bold uppercase tracking-wide text-ink shadow-[6px_6px_0_0_#17120E] transition hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_0_#17120E]"
+                className="rounded-full bg-teal px-9 py-5 text-lg font-bold uppercase tracking-wide text-ink shadow-[6px_6px_0_0_#17120E] transition hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_0_#17120E]"
               >
                 Выбрать время
               </a>

@@ -42,8 +42,8 @@
   --color-paper: var(--paper);
   --color-amber: var(--amber);
   --color-teal: var(--teal);
-  --font-display: "Archivo Black", "Archivo", sans-serif;
-  --font-body: "Archivo", system-ui, sans-serif;
+  --font-display: "Montserrat", system-ui, sans-serif;
+  --font-body: "Montserrat", system-ui, sans-serif;
 }
 
 :root {

@@ -83,7 +83,7 @@ function Index() {
   return (
     <div className="min-h-screen bg-cream text-ink">
       <header className="flex items-center justify-between px-6 py-5 md:px-12">
-        <div className="font-display text-2xl tracking-tight">
+        <div className="font-display font-black text-2xl tracking-tight">
           TRIM<span className="text-accent">.</span>
         </div>
         <nav className="hidden items-center gap-8 text-sm font-semibold uppercase tracking-wide md:flex">
@@ -107,7 +107,7 @@ function Index() {
 
       <main className="px-6 pb-20 md:px-12">
         <section className="relative overflow-hidden pt-6 pb-10">
-          <h1 className="font-display select-none text-[26vw] uppercase leading-[0.82] tracking-tighter md:text-[20vw]">
+          <h1 className="font-display font-black select-none text-[26vw] uppercase leading-[0.82] tracking-tighter md:text-[20vw]">
             <span className="block text-ink">TRIM</span>
             <span className="block text-accent">BARBER</span>
           </h1>
@@ -134,7 +134,7 @@ function Index() {
         </section>
 
         <section id="services" className="mt-4 scroll-mt-8">
-          <h2 className="font-display mb-6 text-3xl uppercase md:text-5xl">
+          <h2 className="font-display font-black mb-6 text-3xl uppercase md:text-5xl">
             Услуги <span className="text-accent">и цены</span>
           </h2>
           <div className="grid gap-5 md:grid-cols-3">
@@ -143,7 +143,7 @@ function Index() {
                 key={s.title}
                 className={`rounded-3xl border-2 border-ink p-7 ${s.className}`}
               >
-                <div className="font-display text-5xl">{s.price}</div>
+                <div className="font-display font-black text-5xl">{s.price}</div>
                 <div className="mt-1 text-xs font-bold uppercase tracking-wide">
                   {s.meta}
                 </div>
@@ -157,7 +157,7 @@ function Index() {
         </section>
 
         <section id="team" className="mt-12 scroll-mt-8">
-          <h2 className="font-display mb-6 text-3xl uppercase md:text-5xl">
+          <h2 className="font-display font-black mb-6 text-3xl uppercase md:text-5xl">
             Наши барберы
           </h2>
           <div className="grid gap-5 md:grid-cols-3">
@@ -174,7 +174,7 @@ function Index() {
                   height={1024}
                   className="mb-4 aspect-[4/5] w-full rounded-2xl object-cover"
                 />
-                <div className="font-display text-2xl">{b.name}</div>
+                <div className="font-display font-black text-2xl">{b.name}</div>
                 <div
                   className={`text-sm font-semibold uppercase tracking-wide ${b.specialtyClass}`}
                 >
@@ -191,7 +191,7 @@ function Index() {
         >
           <div className="grid items-center gap-10 md:grid-cols-2">
             <div>
-              <h2 className="font-display text-4xl uppercase leading-[0.9] md:text-6xl">
+              <h2 className="font-display font-black text-4xl uppercase leading-[0.9] md:text-6xl">
                 Запишись
                 <br />на <span className="text-amber">сегодня</span>
               </h2>
@@ -208,7 +208,7 @@ function Index() {
             </div>
             {submitted ? (
               <div className="rounded-3xl border-2 border-amber/60 bg-cream/10 p-10 text-center">
-                <div className="font-display text-3xl uppercase text-amber">
+                <div className="font-display font-black text-3xl uppercase text-amber">
                   Готово!
                 </div>
                 <p className="mt-4 text-cream/80">
@@ -260,7 +260,7 @@ function Index() {
         </section>
 
         <footer className="mt-12 flex flex-col items-center justify-between gap-3 text-sm font-semibold uppercase tracking-wide md:flex-row">
-          <div className="font-display text-xl">
+          <div className="font-display font-black text-xl">
             TRIM<span className="text-accent">.</span>
           </div>
           <div className="text-ink/50">© 2026 · Сделано с характером</div>

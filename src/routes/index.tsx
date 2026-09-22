@@ -106,29 +106,39 @@ function Index() {
       </header>
 
       <main className="px-6 pb-20 md:px-12">
-        <section className="relative overflow-hidden pt-6 pb-10">
-          <h1 className="font-display font-black select-none text-[26vw] uppercase leading-[0.82] tracking-tighter md:text-[20vw]">
-            <span className="block text-ink">TRIM</span>
-            <span className="block text-accent">BARBER</span>
-          </h1>
-          <div className="relative z-10 -mt-[18vw] max-w-2xl md:-mt-[14vw]">
-            <p className="inline-block max-w-md rounded-2xl border-2 border-ink bg-paper px-5 py-4 text-lg font-medium shadow-[5px_5px_0_0_#17120E] md:text-xl">
-              Городской барбершоп с характером. Чистые линии, точный фейд и
-              спокойная атмосфера без суеты.
-            </p>
-            <div className="mt-7 flex flex-wrap gap-4">
-              <a
-                href="#book"
-                className="rounded-full bg-teal px-9 py-5 text-lg font-bold uppercase tracking-wide text-ink shadow-[6px_6px_0_0_#17120E] transition hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_0_#17120E]"
-              >
-                Выбрать время
-              </a>
-              <a
-                href="#services"
-                className="rounded-full border-2 border-ink px-9 py-5 text-lg font-bold uppercase tracking-wide transition hover:bg-ink hover:text-cream"
-              >
-                Услуги и цены
-              </a>
+        <section className="relative overflow-hidden pt-6 pb-14">
+          <div className="flex items-start gap-4 md:gap-10">
+            <div className="min-w-0 flex-1">
+              <h1 className="font-display font-black select-none text-[24vw] uppercase leading-[0.82] tracking-tighter md:text-[13vw]">
+                <span className="block text-ink">TRIM</span>
+              </h1>
+              <div className="relative z-10 mt-8 max-w-2xl md:mt-12">
+                <p className="inline-block max-w-md rounded-2xl border-2 border-ink bg-paper px-5 py-4 text-lg font-medium shadow-[5px_5px_0_0_#17120E] md:text-xl">
+                  Городской барбершоп с характером. Чистые линии, точный фейд и
+                  спокойная атмосфера без суеты.
+                </p>
+                <div className="mt-7 flex flex-wrap gap-4">
+                  <a
+                    href="#book"
+                    className="rounded-full bg-teal px-9 py-5 text-lg font-bold uppercase tracking-wide text-ink shadow-[6px_6px_0_0_#17120E] transition hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0_0_#17120E]"
+                  >
+                    Выбрать время
+                  </a>
+                  <a
+                    href="#services"
+                    className="rounded-full border-2 border-ink px-9 py-5 text-lg font-bold uppercase tracking-wide transition hover:bg-ink hover:text-cream"
+                  >
+                    Услуги и цены
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden="true"
+              className="shrink-0 pt-2 text-right font-display font-black select-none uppercase leading-[0.8] tracking-tighter text-accent text-[19vw] md:text-[13vw]"
+            >
+              <span className="block">BAR</span>
+              <span className="block">BER</span>
             </div>
           </div>
         </section>

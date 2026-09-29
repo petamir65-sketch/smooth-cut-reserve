@@ -1,26 +1,25 @@
-# Book Your Cut
+# TRIM — лендинг барбершопа
 
-сделай лендинг для записи в барбершоп
+Сайт барбершопа с услугами и ценами, карточками мастеров, выбором времени и
+формой записи. Одностраничное приложение.
 
-This project was built with [Lovable](https://lovable.dev).
+## Стек
 
-**Live app**: https://smooth-cut-reserve.lovable.app
+- TanStack Start + React 19 (SSR)
+- Tailwind CSS 4
+- Vite 8, TypeScript
 
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/5d933e15-6b46-5ad5-a73f-d763390616b7).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Разработка
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
 npm i
 npm run dev
 ```
+
+## Сборка
+
+```sh
+npm run build
+```
+
+Деплой — автоматический с ветки `main` на Vercel.
